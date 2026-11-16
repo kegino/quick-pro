@@ -37,7 +37,7 @@ export function SiteHeader() {
     >
       <div className="container-page flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2 font-display text-xl font-bold" aria-label="Quick Pro — Início">
-          <img src="/logo-main.webp" alt="" width={36} height={36} className="size-9 drop-shadow-[0_0_12px_color-mix(in_oklab,var(--primary)_45%,transparent)]" />
+          <img src="/logo-mark.webp" alt="" width={36} height={36} className="size-9 drop-shadow-[0_0_12px_color-mix(in_oklab,var(--primary)_45%,transparent)]" />
           <span className="tracking-tight">Quick Pro</span>
         </Link>
 

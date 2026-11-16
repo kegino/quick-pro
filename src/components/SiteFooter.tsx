@@ -8,7 +8,7 @@ export function SiteFooter() {
       <div className="container-page py-16 grid gap-10 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="flex items-center gap-2 font-display text-xl font-bold">
-            <img src="/logo-main.webp" alt="" width={36} height={36} loading="lazy" className="size-9" />
+            <img src="/logo-mark.webp" alt="" width={36} height={36} loading="lazy" className="size-9" />
             <span>Quick Pro</span>
           </div>
           <p className="mt-4 max-w-md text-sm text-muted-foreground">
