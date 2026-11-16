@@ -1,5 +1,10 @@
 export const WHATSAPP_PHONE = "5511933821957";
 
+export function whatsappUrl(keyword: string = "Quick Pro"): string {
+  const message = `Olá, Gostaria de falar sobre o ${keyword}`;
+  return `https://api.whatsapp.com/send?phone=${WHATSAPP_PHONE}&text=${encodeURIComponent(message)}`;
+}
+
 export function formatPhone(phone: string): string {
   if (phone.length === 13 && phone.startsWith("55")) {
     const ddd = phone.slice(2, 4);
